@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.asse.sweapp.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/root"
+    android:background="#000000" >
+
+    <TextView
+        style="@style/shout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/provider"
+        android:layout_alignEnd="@+id/provider" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:id="@+id/user"
+        android:background="#F44336"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignTop="@+id/provider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/provider"
+        android:id="@+id/provider"
+        android:background="#F44336"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_toLeftOf="@+id/textView"
+        android:contentDescription="@string/logo" />
+
+    <!--
+        <LinearLayout
+            android:id="@+id/base"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="what do you want to order?"
+                android:id="@+id/my_TextView"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click to Select"
+                android:id="@+id/my_Button"
+                />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/my_EditText"
+                />
+            <Spinner
+                android:id="@+id/planets_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio0"
+            android:id="@+id/radioButton"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.40" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio1"
+            android:id="@+id/radioButton2"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorPrimary"/>
+
+
+    <TextView
+        android:id="@+id/centertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Text View number two"
+        android:layout_above="@id/centertext"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Text View number three"
+        android:layout_below="@id/centertext"
+        />
+        -->
+
+</RelativeLayout>
