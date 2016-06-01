@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/pizza_menu"
+    tools:context="com.example.asse.sweapp.Piza_houses"
+    tools:showIn="@layout/activity_piza_houses">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:id="@+id/pizza_menu1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu1"
+            android:id="@+id/c_box1"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:checked="false" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description1"
+            android:layout_gravity="end"
+            android:gravity="top|start"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pizza_menu2"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_menu1">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu2"
+            android:id="@+id/c_box2"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description2"
+            android:layout_gravity="end"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pizza_menu3"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_menu2" >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu3"
+            android:id="@+id/c_box3"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description3"
+            android:layout_gravity="end"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pizza_menu4"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_menu3" >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu4"
+            android:id="@+id/c_box4"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description4"
+            android:layout_gravity="end"
+            android:textSize="8sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pizza_menu5"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_menu4" >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu5"
+            android:id="@+id/c_box5"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description5"
+            android:layout_gravity="end"
+            android:textSize="8sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pizza_menu6"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_menu5" >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu6"
+            android:id="@+id/c_box6"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description6"
+            android:layout_gravity="end"
+            android:textSize="8sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pizza_menu7"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_menu6" >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu7"
+            android:id="@+id/c_box7"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description7"
+            android:layout_gravity="end"
+            android:textSize="8sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pizza_menu8"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_menu7" >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu8"
+            android:id="@+id/c_box8"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description8"
+            android:layout_gravity="end"
+            android:textSize="8sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pizza_menu9"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_menu8" >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu9"
+            android:id="@+id/c_box9"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/desc1"
+            android:id="@+id/description9"
+            android:layout_gravity="end"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"
+        android:id="@+id/next_Button"
+
+        android:layout_below="@+id/pizza_menu9"
+        android:layout_alignRight="@+id/pizza_menu2"
+        android:layout_alignEnd="@+id/pizza_menu2" />
+</RelativeLayout>
